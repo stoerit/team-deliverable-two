@@ -7,15 +7,15 @@ function Header(){
         <div className="slider-text">
             <div id="slideshow">
                 <div>
-                    <img src='./assets/css/images/city.jpg' style={imgStyle} alt="city" />
+                    {/* <img src='./assets/css/images/city.jpg' style={imgStyle} alt="city" /> */}
                     <div className="centered">Forbes 2018 Global 2000: Top 7 Companies</div>
                 </div>
                 <div>
-                    <img src="./assets/css/images/world.jpg" style={imgStyle} alt="world" />
+                    {/* <img src="./assets/css/images/world.jpg" style={imgStyle} alt="world" /> */}
                     <div className="centered">Forbes 2018 Global 2000: Top 7 Companies</div>
                 </div>
                 <div>
-                    <img src="./assets/css/images/tech.jpg" style={imgStyle} alt="tech" />
+                    {/* <img src="./assets/css/images/tech.jpg" style={imgStyle} alt="tech" /> */}
                     <div className="centered">Forbes 2018 Global 2000: Top 7 Companies</div>
                 </div>
             </div>

@@ -46,7 +46,7 @@ var MyChart = createReactClass({
           {/* <canvas id="myChart"></canvas> */}
           <LineExample />
           <p>Please select an option for sorting the data in the dropdown menu below.</p>
-          <select onChange={this.change} id="dropdown">
+          <select onChange={this.change} value={this.state.value} id="dropdown">
             <option>Please Select</option>
             <option value="profit">Profit</option>
             <option value="marketValue">Market Value</option>
